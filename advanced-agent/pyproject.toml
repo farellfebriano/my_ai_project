@@ -3,5 +3,16 @@ name = "advanced-agent"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.10"
-dependencies = []
+requires-python = ">=3.13"
+dependencies = [
+    "langchain-text-splitters>=0.3.8,<1.0.0",
+    "langchain-core>=0.3.37",
+    "langsmith>=0.1.125",
+    "langchain-community==0.3.18",
+    "firecrawl-py==2.7.1",
+    "langchain>=0.3.25",
+    "langchain-openai>=0.3.19",
+    "langgraph>=0.4.8",
+    "pydantic>=2.11.5",
+    "python-dotenv>=1.1.0",
+]
